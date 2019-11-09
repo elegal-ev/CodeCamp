@@ -34,3 +34,19 @@ def check_string_for_elegal(string):
         print("Richtig !")
     else:
         print('Dein Input scheint falsch. Kleiner Tipp.\nEin Satz möchte gerne aus seiner Zeile in die Zeile darunter verschoben werden. In eine "Newline"')
+
+def check_for_right_list(x):
+    if type(x) == type([]):
+        print("Du hast die komplette Liste ausgewählt. Denk an den Index.")
+        return
+
+    if x == "JURA":
+        print("Super, alles richtig gemacht.")
+        return
+    else:
+        if type(x) == str:
+            print("Falsches Element. Dein gewähltes Element ist {}.".format(x))
+            return
+        else:
+            print("Irgendetwas ist falsch.")
+            return
