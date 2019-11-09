@@ -35,6 +35,12 @@ def check_string_for_elegal(string):
     else:
         print('Dein Input scheint falsch. Kleiner Tipp.\nEin Satz möchte gerne aus seiner Zeile in die Zeile darunter verschoben werden. In eine "Newline"')
 
+
+def test_bools(tests):
+    if False in tests:
+        print('Du hast einen Fehler!')
+    else
+        print('Super! Du hast alles lösen können! 😁')
 def check_for_right_list(x):
     if type(x) == type([]):
         print("Du hast die komplette Liste ausgewählt. Denk an den Index.")
