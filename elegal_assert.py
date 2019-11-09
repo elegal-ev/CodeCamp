@@ -28,3 +28,9 @@ def write_a_function_check(x):
 
     else:
         print("Super, du hast erfolgreich eine Funktion deklariert")
+
+def test_bools(tests):
+    if False in tests:
+        print('Du hast einen Fehler!')
+    else
+        print('Super! Du hast alles lösen können! 😁')
