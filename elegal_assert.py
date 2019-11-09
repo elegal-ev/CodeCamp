@@ -29,6 +29,13 @@ def write_a_function_check(x):
     else:
         print("Super, du hast erfolgreich eine Funktion deklariert")
 
+def check_string_for_elegal(string):
+    if string == "eLegal ist ein toller Verein, denn er stellt Bier.\nIch möchte nicht in dieser Zeile stehen.":
+        print("Richtig !")
+    else:
+        print('Dein Input scheint falsch. Kleiner Tipp.\nEin Satz möchte gerne aus seiner Zeile in die Zeile darunter verschoben werden. In eine "Newline"')
+
+
 def test_bools(tests):
     if False in tests:
         print('Du hast einen Fehler!')
