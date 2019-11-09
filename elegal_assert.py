@@ -17,3 +17,14 @@ def klausurenschnitt_check(x):
     else:
         print("Dein berechneter Schnitt war falsch")
         return
+
+
+def write_a_function_check(x):
+    def type_check():
+        pass
+
+    if type(x) != type(type_check):
+        print('Du hast keine Funktion deklariert. Hast du an das "def" gedacht?')
+
+    else:
+        print("Super, du hast erfolgreich eine Funktion deklariert")
