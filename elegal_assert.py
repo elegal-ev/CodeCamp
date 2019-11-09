@@ -39,7 +39,7 @@ def check_string_for_elegal(string):
 def test_bools(tests):
     if False in tests:
         print('Du hast einen Fehler!')
-    else
+    else:
         print('Super! Du hast alles lösen können! 😁')
 def check_for_right_list(x):
     if type(x) == type([]):
